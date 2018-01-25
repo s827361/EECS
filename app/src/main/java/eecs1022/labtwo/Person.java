@@ -71,7 +71,7 @@ public class Person
 
 
 
-        } else if (selectedItem.equals("Household"))
+        } else if (selectedItem.equals("Married"))
         {
             if (income < 16700)
             {
@@ -111,7 +111,7 @@ public class Person
             s +=  "Calculation is based on the scheme of Household  Filing:";
             s += "\n";
 
-        } else if (selectedItem.equals("Married"))
+        } else if (selectedItem.equals("Household"))
         {
             if (income < 11950)
             {
